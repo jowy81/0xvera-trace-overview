@@ -1,5 +1,8 @@
 # 0xVera Trace
 
+![Flagship](https://img.shields.io/badge/Flagship-Product%20Architecture-111111?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-In%20Active%20Development-blue?style=for-the-badge)
+
 Modular SaaS-style platform for logistics, inventory, orders, transport, and traceability, with multi-tenant isolation, optional reseller hierarchy, and module licensing. The system is delivered as a **strict polyrepo**: separate repositories for API, web, admin, mobile, shared packages, and deployment orchestration.
 
 Built and maintained as part of real-world infrastructure and production environments.
@@ -38,6 +41,12 @@ Organizations need one coherent operational stack for stock, fulfilment, and tra
 - **Orchestration / edge** — Compose-based stack: reverse proxy routing to API, static admin, and static web as documented in the private deployment repo.
 - **Data layer** — Relational database; optional Redis for sessions, cache, or queues depending on phase (as described in internal architecture docs).
 - **Automation layer** — Background workers may live inside the API service or split later; exact topology is intentionally not specified here.
+
+## Architecture Diagram
+
+High-level data and control flow (conceptual; not a deployment map).
+
+![Architecture Diagram](./assets/architecture.svg)
 
 ## Tech Stack
 

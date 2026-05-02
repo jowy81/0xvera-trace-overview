@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 560" width="640" height="560">
+<title>0xVera Trace conceptual architecture</title>
+<rect width="640" height="560" fill="#f8fafc"/>
+<g fill="#0f172a" font-family="Arial,Helvetica,sans-serif" font-size="12">
+<rect x="190" y="12" width="260" height="36" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1"/>
+<text x="320" y="34" text-anchor="middle" font-weight="bold">Users / Operators</text>
+<line x1="320" y1="48" x2="320" y2="64" stroke="#475569" stroke-width="2"/>
+<polygon points="320,72 314,64 326,64" fill="#475569"/>
+<rect x="160" y="72" width="320" height="36" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1"/>
+<text x="320" y="94" text-anchor="middle" font-weight="bold">Web / Admin / Mobile</text>
+<line x1="320" y1="108" x2="320" y2="124" stroke="#475569" stroke-width="2"/>
+<polygon points="320,132 314,124 326,124" fill="#475569"/>
+<rect x="130" y="132" width="380" height="36" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1"/>
+<text x="320" y="154" text-anchor="middle" font-weight="bold">API Gateway / Backend API</text>
+<line x1="320" y1="168" x2="320" y2="184" stroke="#475569" stroke-width="2"/>
+<polygon points="320,192 314,184 326,184" fill="#475569"/>
+<rect x="180" y="192" width="280" height="36" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1"/>
+<text x="320" y="214" text-anchor="middle" font-weight="bold">Domain Modules</text>
+<line x1="320" y1="228" x2="320" y2="236" stroke="#475569" stroke-width="2"/>
+<line x1="320" y1="236" x2="200" y2="252" stroke="#475569" stroke-width="1.5"/>
+<line x1="320" y1="236" x2="440" y2="252" stroke="#475569" stroke-width="1.5"/>
+<polygon points="200,260 194,252 206,252" fill="#475569"/>
+<polygon points="440,260 434,252 446,252" fill="#475569"/>
+<rect x="110" y="260" width="180" height="36" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1"/>
+<text x="200" y="282" text-anchor="middle" font-weight="bold">PostgreSQL</text>
+<rect x="350" y="260" width="180" height="36" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1"/>
+<text x="440" y="282" text-anchor="middle" font-weight="bold">Redis</text>
+<line x1="320" y1="296" x2="320" y2="312" stroke="#475569" stroke-width="2"/>
+<polygon points="320,320 314,312 326,312" fill="#475569"/>
+<rect x="100" y="320" width="440" height="40" rx="8" fill="#fef9c3" stroke="#ca8a04" stroke-width="1"/>
+<text x="320" y="338" text-anchor="middle" font-weight="bold">Optional Blockchain Traceability</text>
+<text x="320" y="352" text-anchor="middle" font-size="11">Layer</text>
+<line x1="320" y1="360" x2="320" y2="376" stroke="#475569" stroke-width="2"/>
+<polygon points="320,384 314,376 326,376" fill="#475569"/>
+<rect x="130" y="384" width="380" height="36" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1"/>
+<text x="320" y="406" text-anchor="middle" font-weight="bold">External Integrations</text>
+<text x="320" y="448" text-anchor="middle" fill="#64748b" font-size="10">Conceptual - public overview only</text>
+</g>
+</svg>
