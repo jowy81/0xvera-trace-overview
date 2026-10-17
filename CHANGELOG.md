@@ -4,6 +4,16 @@ All notable changes to this overview are documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2026-10-18
+
+### Added
+
+- Screenshots / Demo section with product screenshots (demo data): analytics dashboard, orders list and draft order workflow, traceability business events, and product catalog.
+
+### Changed
+
+- Localization feature now lists all 7 supported UI languages.
+
 ## [1.1.0] - 2026-10-18
 
 ### Added
@@ -32,5 +42,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Initial public overview of 0xVera Trace.
 - Architecture diagram and badges.
 
+[1.2.0]: https://github.com/jowy81/0xvera-trace-overview/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/jowy81/0xvera-trace-overview/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/jowy81/0xvera-trace-overview/releases/tag/v1.0.0

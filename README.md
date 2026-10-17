@@ -40,7 +40,7 @@ Implemented today:
 - **Billing MVP** with Stripe Checkout.
 - **Webhooks**, an **analytics dashboard**, and **media upload**.
 - **Android field app** - offline-first, with QR / barcode scanning, an offline outbox with sync, GPS capture, and signature capture.
-- **Localization** - 7 UI languages, including Catalan.
+- **Localization** - 7 UI languages: English, Spanish, Catalan, French, German, Italian, and Portuguese.
 - **Polyrepo governance** per component: independent versioning, CI, and release lines (no monorepo at workspace root).
 
 ## Roadmap
@@ -89,10 +89,23 @@ This is a **modular product** under continuous engineering: architecture, domain
 
 ## Screenshots / Demo
 
-<!--
-Add screenshots or GIFs here:
-![Demo](./assets/demo.gif)
--->
+Screenshots show demo data only. Most of the UI is shown in Spanish. Screenshots will be refreshed as the product evolves.
+
+### Analytics dashboard
+
+![Analytics dashboard](./assets/screenshots/analytics-dashboard.png)
+
+### Orders list and draft order workflow
+
+![Orders list and draft order workflow](./assets/screenshots/orders.png)
+
+### Traceability business events
+
+![Traceability business events](./assets/screenshots/traceability.png)
+
+### Product catalog
+
+![Product catalog](./assets/screenshots/products.png)
 
 ## Notes
 
